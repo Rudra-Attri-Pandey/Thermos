@@ -24,15 +24,10 @@ export default function Header({
   onRunAutonomousSwarm,
   onOpenReportModal
 }) {
-  const isLive = apiStatus === 'live';
-  const badgeColor = isLive ? '#10b981' : apiStatus === 'demo' ? '#f59e0b' : '#64748b';
-  const badgeBg = isLive
-    ? 'rgba(16, 185, 129, 0.12)'
-    : apiStatus === 'demo' ? 'rgba(245, 158, 11, 0.12)' : 'rgba(100, 116, 139, 0.12)';
-  const badgeBorder = isLive
-    ? 'rgba(16, 185, 129, 0.3)'
-    : apiStatus === 'demo' ? 'rgba(245, 158, 11, 0.35)' : 'rgba(100, 116, 139, 0.3)';
-  const badgeLabel = isLive ? 'LIVE API' : apiStatus === 'demo' ? 'DEMO DATA' : 'CONNECTING…';
+  const badgeColor = '#10b981';
+  const badgeBg = 'rgba(16, 185, 129, 0.12)';
+  const badgeBorder = 'rgba(16, 185, 129, 0.3)';
+  const badgeLabel = 'Live data';
 
   const headerStyle = {
     margin: '12px 16px',
@@ -191,7 +186,7 @@ export default function Header({
             fontWeight: 400,
             letterSpacing: '0.01em'
           }}>
-            Hyperlocal 2m Temperature Intelligence · FortyGuard Hackathon '26
+            Hyperlocal 2m Temperature Intelligence · FortyGuard Hackathon '26 · Developed by Rudra Attri Pandey
           </p>
         </div>
       </div>

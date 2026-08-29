@@ -49,10 +49,11 @@ export default function MapView({
 
       L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-      // Dark Matter Map Tiles
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      // Free OSM tiles (no API key) — darkened via CSS filter in index.css
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
-        subdomains: 'abcd'
+        subdomains: 'abc',
+        attribution: '&copy; OpenStreetMap contributors'
       }).addTo(map);
 
       // Setup layer groups

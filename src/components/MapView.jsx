@@ -399,7 +399,7 @@ export default function MapView({
         boxShadow: '0 8px 32px -8px rgba(0,0,0,0.5)'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 700, color: '#f8fafc', marginBottom: '6px', paddingBottom: '6px', borderBottom: '1px solid var(--border-glass)' }}>
-          <span style={{ display: 'flex', alignItems: center, justifyContent: center, width: '28px', height: '28px', borderRadius: '8px', background: 'rgba(0, 242, 254, 0.15)' }}>
+          <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '28px', height: '28px', borderRadius: '8px', background: 'rgba(0, 242, 254, 0.15)' }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
               <polyline points="2 17 12 22 22 17"></polyline>

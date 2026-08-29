@@ -1,22 +1,28 @@
 # Dependencies
 node_modules/
+.pnp
+.pnp.js
 
-# Build output
+# Production Build
 dist/
+build/
 
-# Secrets — NEVER commit
+# Environment Variables & Secrets
 .env
 .env.local
-.env.*.local
+.env.production
+.env.development
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-
-# OS / editor
-.DS_Store
-Thumbs.db
+# Reference & Submodules
+quickstart_ref/
+OmniRoute/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS Files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db

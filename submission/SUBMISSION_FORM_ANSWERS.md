@@ -28,7 +28,7 @@ Track 06: Agentic AI (with unified integrations across Tracks 01, 02, 03, 04, 05
 
 ### 4. Live Demo Link
 ```text
-https://thermos-ai.vercel.app
+https://thermos-ai.onrender.com
 ```
 
 ---

@@ -190,8 +190,8 @@ export default function UrbanSim({ selectedCity, onSimulationChange }) {
         </div>
       </div>
 
-      {/* Main Content Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+      {/* Main Content Grid — responsive, no horizontal overflow */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '16px' }}>
         {/* Sliders Panel */}
         <div className="glass-panel" style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '4px', height: 'fit-content' }}>
           <h3 style={{ fontSize: '0.95rem', fontWeight: 700, color: '#f8fafc', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>

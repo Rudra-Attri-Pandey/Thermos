@@ -192,5 +192,223 @@ export const CITIES = {
       { name: 'St. Pancras International Cool Station', lat: 51.5310, lng: -0.1260, waterStation: true, capacity: 2000 },
       { name: 'British Museum Great Court Hub', lat: 51.5190, lng: -0.1270, waterStation: true, capacity: 1200 }
     ]
+  },
+  // Added U.S. coverage expansion — FortyGuard is U.S.-only per docs, these show live 2m data
+  losangeles: {
+    id: 'losangeles',
+    name: 'Los Angeles, CA',
+    country: 'United States',
+    lat: 34.0522,
+    lng: -118.2437,
+    zoom: 13,
+    baseTempC: 38.9,
+    baseTempF: 102.0,
+    peakHour: 15,
+    humidity: 28,
+    solarIrradiance: 980,
+    treeCanopyCover: 19.5,
+    builtDensity: 81.0,
+    polygon: [
+      [-118.3000, 34.0200],
+      [-118.1900, 34.0200],
+      [-118.1900, 34.0900],
+      [-118.3000, 34.0900],
+      [-118.3000, 34.0200]
+    ],
+    hotspots: [
+      { name: 'Downtown LA Asphalt Grid (Figueroa)', lat: 34.0450, lng: -118.2600, tempC: 42.8, type: 'extreme', shade: 6 },
+      { name: 'Hollywood Walk Concrete Canyon', lat: 34.1010, lng: -118.3250, tempC: 40.1, type: 'high', shade: 14 },
+      { name: 'Griffith Park Canopy Oasis', lat: 34.1180, lng: -118.3000, tempC: 32.8, type: 'cool', shade: 76 }
+    ],
+    coolingShelters: [
+      { name: 'Pershing Square Cooling Hub', lat: 34.0480, lng: -118.2530, waterStation: true, capacity: 600 },
+      { name: 'Echo Park Community Center', lat: 34.0770, lng: -118.2600, waterStation: true, capacity: 350 }
+    ]
+  },
+  chicago: {
+    id: 'chicago',
+    name: 'Chicago, IL',
+    country: 'United States',
+    lat: 41.8781,
+    lng: -87.6298,
+    zoom: 13,
+    baseTempC: 34.2,
+    baseTempF: 93.6,
+    peakHour: 15,
+    humidity: 52,
+    solarIrradiance: 840,
+    treeCanopyCover: 22.4,
+    builtDensity: 87.5,
+    polygon: [
+      [-87.6800, 41.8400],
+      [-87.5800, 41.8400],
+      [-87.5800, 41.9100],
+      [-87.6800, 41.9100],
+      [-87.6800, 41.8400]
+    ],
+    hotspots: [
+      { name: 'The Loop Concrete Canyon (Michigan Ave)', lat: 41.8830, lng: -87.6240, tempC: 38.9, type: 'high', shade: 18 },
+      { name: 'West Loop Industrial Heat Trap', lat: 41.8850, lng: -87.6450, tempC: 39.5, type: 'extreme', shade: 5 },
+      { name: 'Grant Park Lakefront Canopy', lat: 41.8720, lng: -87.6180, tempC: 31.2, type: 'cool', shade: 74 }
+    ],
+    coolingShelters: [
+      { name: 'Chicago Cultural Center Hub', lat: 41.8838, lng: -87.6240, waterStation: true, capacity: 500 },
+      { name: 'Garfield Park Conservatory', lat: 41.8860, lng: -87.7170, waterStation: true, capacity: 700 }
+    ]
+  },
+  houston: {
+    id: 'houston',
+    name: 'Houston, TX',
+    country: 'United States',
+    lat: 29.7604,
+    lng: -95.3698,
+    zoom: 13,
+    baseTempC: 39.8,
+    baseTempF: 103.6,
+    peakHour: 15,
+    humidity: 58,
+    solarIrradiance: 920,
+    treeCanopyCover: 18.6,
+    builtDensity: 79.0,
+    polygon: [
+      [-95.4200, 29.7200],
+      [-95.3200, 29.7200],
+      [-95.3200, 29.8000],
+      [-95.4200, 29.8000],
+      [-95.4200, 29.7200]
+    ],
+    hotspots: [
+      { name: 'Downtown Tunnel Asphalt Loop', lat: 29.7560, lng: -95.3670, tempC: 43.2, type: 'extreme', shade: 7 },
+      { name: 'Galleria Parking Heat Island', lat: 29.7600, lng: -95.4620, tempC: 41.8, type: 'high', shade: 9 },
+      { name: 'Buffalo Bayou Park Canopy', lat: 29.7605, lng: -95.3850, tempC: 33.5, type: 'cool', shade: 71 }
+    ],
+    coolingShelters: [
+      { name: 'George R. Brown Convention Center', lat: 29.7520, lng: -95.3570, waterStation: true, capacity: 1200 },
+      { name: 'Discovery Green Misting Oasis', lat: 29.7530, lng: -95.3590, waterStation: true, capacity: 800 }
+    ]
+  },
+  seattle: {
+    id: 'seattle',
+    name: 'Seattle, WA',
+    country: 'United States',
+    lat: 47.6062,
+    lng: -122.3321,
+    zoom: 13,
+    baseTempC: 32.5,
+    baseTempF: 90.5,
+    peakHour: 16,
+    humidity: 48,
+    solarIrradiance: 790,
+    treeCanopyCover: 28.3,
+    builtDensity: 74.0,
+    polygon: [
+      [-122.3800, 47.5700],
+      [-122.2850, 47.5700],
+      [-122.2850, 47.6400],
+      [-122.3800, 47.6400],
+      [-122.3800, 47.5700]
+    ],
+    hotspots: [
+      { name: 'Downtown 3rd Ave Concrete Corridor', lat: 47.6050, lng: -122.3330, tempC: 36.8, type: 'high', shade: 16 },
+      { name: 'SoDo Industrial Yard', lat: 47.5780, lng: -122.3330, tempC: 37.9, type: 'extreme', shade: 4 },
+      { name: 'Kerry Park Canopy View', lat: 47.6290, lng: -122.3600, tempC: 29.2, type: 'cool', shade: 78 }
+    ],
+    coolingShelters: [
+      { name: 'Seattle Center Exhibition Hall Hub', lat: 47.6210, lng: -122.3490, waterStation: true, capacity: 600 },
+      { name: 'Pike Place Market Shaded Arcade', lat: 47.6090, lng: -122.3420, waterStation: true, capacity: 400 }
+    ]
+  },
+  miami: {
+    id: 'miami',
+    name: 'Miami, FL',
+    country: 'United States',
+    lat: 25.7617,
+    lng: -80.1918,
+    zoom: 13,
+    baseTempC: 36.8,
+    baseTempF: 98.2,
+    peakHour: 15,
+    humidity: 68,
+    solarIrradiance: 930,
+    treeCanopyCover: 16.2,
+    builtDensity: 85.5,
+    polygon: [
+      [-80.2400, 25.7300],
+      [-80.1400, 25.7300],
+      [-80.1400, 25.8000],
+      [-80.2400, 25.8000],
+      [-80.2400, 25.7300]
+    ],
+    hotspots: [
+      { name: 'Brickell Asphalt Canyon', lat: 25.7600, lng: -80.1950, tempC: 40.5, type: 'extreme', shade: 8 },
+      { name: 'Wynwood Concrete Art District', lat: 25.8010, lng: -80.1990, tempC: 39.8, type: 'high', shade: 11 },
+      { name: 'Bayfront Park Canopy', lat: 25.7750, lng: -80.1870, tempC: 33.1, type: 'cool', shade: 69 }
+    ],
+    coolingShelters: [
+      { name: 'Adrienne Arsht Center Hub', lat: 25.7990, lng: -80.1970, waterStation: true, capacity: 700 },
+      { name: 'Miami Beach Convention Center', lat: 25.7900, lng: -80.1400, waterStation: true, capacity: 1500 }
+    ]
+  },
+  boston: {
+    id: 'boston',
+    name: 'Boston, MA',
+    country: 'United States',
+    lat: 42.3601,
+    lng: -71.0589,
+    zoom: 13,
+    baseTempC: 34.9,
+    baseTempF: 94.8,
+    peakHour: 15,
+    humidity: 56,
+    solarIrradiance: 810,
+    treeCanopyCover: 24.5,
+    builtDensity: 86.0,
+    polygon: [
+      [-71.1000, 42.3300],
+      [-71.0100, 42.3300],
+      [-71.0100, 42.3900],
+      [-71.1000, 42.3900],
+      [-71.1000, 42.3300]
+    ],
+    hotspots: [
+      { name: 'Financial District Concrete Canyon', lat: 42.3560, lng: -71.0550, tempC: 38.2, type: 'high', shade: 19 },
+      { name: 'South Boston Industrial Heat Trap', lat: 42.3380, lng: -71.0500, tempC: 39.0, type: 'extreme', shade: 6 },
+      { name: 'Boston Common Canopy Oasis', lat: 42.3550, lng: -71.0650, tempC: 31.5, type: 'cool', shade: 75 }
+    ],
+    coolingShelters: [
+      { name: 'Boston Public Library Courtyard', lat: 42.3495, lng: -71.0780, waterStation: true, capacity: 500 },
+      { name: 'City Hall Plaza Misting Corridor', lat: 42.3605, lng: -71.0585, waterStation: true, capacity: 800 }
+    ]
+  },
+  lasvegas: {
+    id: 'lasvegas',
+    name: 'Las Vegas, NV',
+    country: 'United States',
+    lat: 36.1699,
+    lng: -115.1398,
+    zoom: 13,
+    baseTempC: 43.2,
+    baseTempF: 109.8,
+    peakHour: 16,
+    humidity: 16,
+    solarIrradiance: 1050,
+    treeCanopyCover: 6.5,
+    builtDensity: 84.0,
+    polygon: [
+      [-115.1900, 36.1300],
+      [-115.0900, 36.1300],
+      [-115.0900, 36.2100],
+      [-115.1900, 36.2100],
+      [-115.1900, 36.1300]
+    ],
+    hotspots: [
+      { name: 'The Strip Asphalt Heat Corridor', lat: 36.1120, lng: -115.1720, tempC: 47.5, type: 'extreme', shade: 1 },
+      { name: 'Downtown Fremont Concrete Canyon', lat: 36.1720, lng: -115.1440, tempC: 46.8, type: 'extreme', shade: 3 },
+      { name: 'Springs Preserve Canopy', lat: 36.1710, lng: -115.1900, tempC: 37.2, type: 'cool', shade: 68 }
+    ],
+    coolingShelters: [
+      { name: 'Convention Center Transit Hub', lat: 36.1320, lng: -115.1520, waterStation: true, capacity: 1000 },
+      { name: 'Downtown Container Park Shade', lat: 36.1685, lng: -115.1395, waterStation: true, capacity: 400 }
+    ]
   }
 };

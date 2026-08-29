@@ -28,6 +28,7 @@ export default function Header({
   const badgeBg = 'rgba(16, 185, 129, 0.12)';
   const badgeBorder = 'rgba(16, 185, 129, 0.3)';
   const badgeLabel = 'Live data';
+  const isLive = true;
 
   const headerStyle = {
     margin: '12px 16px',

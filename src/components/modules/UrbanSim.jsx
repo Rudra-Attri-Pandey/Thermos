@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Landmark, Trees, ShieldCheck, DollarSign, HeartPulse, Leaf, Sparkles, Sliders, TrendingDown, Zap, Droplets, Gauge, Wind, Sun } from 'lucide-react';
+import { Landmark, Trees, ShieldCheck, DollarSign, HeartPulse, Leaf, Sparkles, Sliders, TrendingDown, Zap, Droplets, Gauge, Wind, Sun, Thermometer } from 'lucide-react';
 import { PhysicsSimulator } from '../../services/physicsSimulator';
 
 const SliderControl = ({ label, value, min, max, unit, color, icon: Icon, onChange, description, marks }) => (

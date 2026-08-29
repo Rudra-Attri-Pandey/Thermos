@@ -246,7 +246,7 @@ export default function AgentTerminal({
               <Terminal size={28} strokeWidth={1.5} color="#38bdf8" />
             </div>
             <p style={{ fontSize: '0.85rem', fontWeight: 500, color: '#f8fafc' }}>Agent Swarm Ready</p>
-            <p style={{ fontSize: '0.7rem', maxWidth: '280px' }}>Click <strong style="color: #00f2fe">"Run AI Swarm"</strong> or enter a query below to begin autonomous climate analysis.</p>
+            <p style={{ fontSize: '0.7rem', maxWidth: '280px' }}>Click <strong style={{ color: '#00f2fe' }}>"Run AI Swarm"</strong> or enter a query below to begin autonomous climate analysis.</p>
           </div>
         ) : (
           logs.map((log, index) => {

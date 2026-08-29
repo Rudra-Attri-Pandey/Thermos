@@ -13,6 +13,13 @@ build/
 .env.production
 .env.development
 
+# Submission & Demo helpers
+submission/
+DEMO_SCRIPT.txt
+DEMO_VIDEO_SCRIPT.md
+SUBMISSION_CHECKLIST.md
+submission_script_printable.html
+
 # Reference & Submodules
 quickstart_ref/
 OmniRoute/

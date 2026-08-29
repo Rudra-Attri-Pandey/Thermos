@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Download, FileText, CheckCircle, Flame, ShieldAlert, Cpu, Zap, Leaf, DollarSign, Thermometer, Scale, BarChart3, ArrowRight } from 'lucide-react';
+import { X, Download, FileText, CheckCircle, Flame, ShieldAlert, Cpu, Zap, Leaf, Trees, DollarSign, Thermometer, Scale, BarChart3, ArrowRight } from 'lucide-react';
 
 const SectionCard = ({ title, icon: Icon, iconColor, children }) => (
   <div className="glass-panel" style={{
